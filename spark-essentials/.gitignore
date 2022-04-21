@@ -200,9 +200,9 @@ spark-warehouse/
 
 # For SBT
 .jvmopts
-resources/data/*.parquet/*
-resources/data/*.json/*
-resources/data/*.csv/*
+src/main/resources/data/*.parquet/*
+src/main/resources/data/*.json/*
+src/main/resources/data/*.csv/*
 
 
 # End of https://www.gitignore.io/api/sbt,scala,spark,intellij
